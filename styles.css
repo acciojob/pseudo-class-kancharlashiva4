@@ -1,1 +1,18 @@
-/*  your css code here. If applicable */
+/* Apply margin to the container */
+#container {
+  margin: 20px;
+}
+
+/* Use ::before pseudo-class to insert content before the main content */
+#container::before {
+  content: "Before Text";
+  color: #f00;
+  font-size: 20px;
+}
+
+/* Use ::after pseudo-class to insert content after the main content */
+#container::after {
+  content: "After Text";
+  color: #f00;
+  font-size: 20px;
+}
